@@ -1,0 +1,129 @@
+<svg viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" font-family="monospace" role="img">
+  <title>Comparativo: PDF bruto vs registro tratado pelo pipeline</title>
+  <desc>Lado esquerdo mostra a tabela da Visa como aparece no PDF. Lado direito mostra o JSON normalizado gerado pelo pipeline.</desc>
+
+  <rect width="900" height="540" fill="#f8f8f6" rx="12"/>
+
+  <rect x="0" y="0" width="900" height="44" fill="#2C2C2A" rx="12"/>
+  <rect x="0" y="30" width="900" height="14" fill="#2C2C2A"/>
+  <text x="450" y="27" text-anchor="middle" font-size="13" font-weight="500" fill="#D3D1C7" font-family="sans-serif">PDF bruto  →  pipeline  →  registro tratado</text>
+
+  <rect x="16" y="56" width="418" height="468" fill="#fff" rx="8" stroke="#D3D1C7" stroke-width="0.8"/>
+  <rect x="16" y="56" width="418" height="32" fill="#FAC775" rx="8"/>
+  <rect x="16" y="72" width="418" height="16" fill="#FAC775"/>
+  <text x="26" y="77" font-size="12" font-weight="500" fill="#412402" font-family="sans-serif">⌗ PDF bruto — Visa pág. 7 (antes)</text>
+
+  <rect x="24" y="96" width="402" height="20" fill="#D3D1C7" rx="2"/>
+  <text x="225" y="110" text-anchor="middle" font-size="10" fill="#2C2C2A" font-family="sans-serif">Card Present Fee Program</text>
+
+  <rect x="24" y="116" width="402" height="22" fill="#B4B2A9" rx="0"/>
+  <line x1="120" y1="116" x2="120" y2="138" stroke="#888" stroke-width="0.5"/>
+  <line x1="210" y1="116" x2="210" y2="138" stroke="#888" stroke-width="0.5"/>
+  <line x1="290" y1="116" x2="290" y2="138" stroke="#888" stroke-width="0.5"/>
+  <line x1="360" y1="116" x2="360" y2="138" stroke="#888" stroke-width="0.5"/>
+  <text x="66" y="130" text-anchor="middle" font-size="8.5" fill="#2C2C2A" font-family="sans-serif">Fee Program</text>
+  <text x="162" y="127" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Visa Infinite</text>
+  <text x="162" y="136" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Spend Qual.</text>
+  <text x="247" y="127" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Visa Signature</text>
+  <text x="247" y="136" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Preferred</text>
+  <text x="323" y="127" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Visa</text>
+  <text x="323" y="136" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Signature</text>
+  <text x="393" y="127" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Traditional</text>
+  <text x="393" y="136" text-anchor="middle" font-size="8" fill="#2C2C2A" font-family="sans-serif">Rewards</text>
+
+  <rect x="24" y="138" width="402" height="22" fill="#f9f9f9"/>
+  <line x1="120" y1="138" x2="120" y2="160" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="210" y1="138" x2="210" y2="160" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="290" y1="138" x2="290" y2="160" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="360" y1="138" x2="360" y2="160" stroke="#ddd" stroke-width="0.5"/>
+  <text x="28" y="153" font-size="8.5" fill="#333" font-family="sans-serif">Supermarket—Tier* 0</text>
+  <text x="162" y="153" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="247" y="153" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="323" y="153" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.55%+$0.05</text>
+  <text x="393" y="153" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.18%+$0.05</text>
+
+  <rect x="24" y="160" width="402" height="22" fill="#FFF3CD"/>
+  <line x1="120" y1="160" x2="120" y2="182" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="210" y1="160" x2="210" y2="182" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="290" y1="160" x2="290" y2="182" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="360" y1="160" x2="360" y2="182" stroke="#ddd" stroke-width="0.5"/>
+  <text x="28" y="175" font-size="8.5" fill="#333" font-family="sans-serif">Supermarket—Tier* I</text>
+  <text x="162" y="175" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="247" y="175" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="323" y="175" text-anchor="middle" font-size="9" fill="#BA7517" font-weight="bold" font-family="monospace">1.55%+$0.05</text>
+  <text x="393" y="175" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.20%+$0.05</text>
+  <rect x="291" y="161" width="68" height="20" fill="none" stroke="#E24B4A" stroke-width="1.5" rx="2"/>
+
+  <rect x="24" y="182" width="402" height="22" fill="#f9f9f9"/>
+  <line x1="120" y1="182" x2="120" y2="204" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="210" y1="182" x2="210" y2="204" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="290" y1="182" x2="290" y2="204" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="360" y1="182" x2="360" y2="204" stroke="#ddd" stroke-width="0.5"/>
+  <text x="28" y="197" font-size="8.5" fill="#333" font-family="sans-serif">Supermarket—Tier* II</text>
+  <text x="162" y="197" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="247" y="197" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.65%+$0.05</text>
+  <text x="323" y="197" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.55%+$0.05</text>
+  <text x="393" y="197" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.22%+$0.05</text>
+
+  <rect x="24" y="204" width="402" height="22" fill="#fff"/>
+  <line x1="120" y1="204" x2="120" y2="226" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="210" y1="204" x2="210" y2="226" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="290" y1="204" x2="290" y2="226" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="360" y1="204" x2="360" y2="226" stroke="#ddd" stroke-width="0.5"/>
+  <text x="28" y="219" font-size="8.5" fill="#333" font-family="sans-serif">CPS/Key Entry²</text>
+  <text x="162" y="219" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.95%+$0.10</text>
+  <text x="247" y="219" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.95%+$0.10</text>
+  <text x="323" y="219" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.95%+$0.10</text>
+  <text x="393" y="219" text-anchor="middle" font-size="9" fill="#333" font-family="monospace">1.80%+$0.10</text>
+
+  <rect x="24" y="96" width="402" height="130" fill="none" stroke="#B4B2A9" stroke-width="0.8" rx="2"/>
+
+  <text x="26" y="245" font-size="9" fill="#888" font-family="sans-serif" font-style="italic">* Volume tier: Tier 0 = base; Tier I–III = critérios de volume crescente.</text>
+  <text x="26" y="258" font-size="9" fill="#888" font-family="sans-serif" font-style="italic">  Ver tabela auxiliar pág. 9.</text>
+  <text x="26" y="272" font-size="9" fill="#888" font-family="sans-serif" font-style="italic">² Not applicable to PIN-authenticated transactions.</text>
+
+  <rect x="26" y="284" width="390" height="18" fill="#FAC77530" rx="4"/>
+  <text x="221" y="296" text-anchor="middle" font-size="9" fill="#633806" font-family="sans-serif">⚠ Footnotes soltas — sem vínculo estrutural às células que modificam</text>
+  <rect x="26" y="306" width="390" height="18" fill="#FAC77530" rx="4"/>
+  <text x="221" y="318" text-anchor="middle" font-size="9" fill="#633806" font-family="sans-serif">⚠ Cabeçalho duplo: "Card Present" engloba todas as colunas de produto</text>
+  <rect x="26" y="328" width="390" height="18" fill="#FAC77530" rx="4"/>
+  <text x="221" y="340" text-anchor="middle" font-size="9" fill="#633806" font-family="sans-serif">⚠ Taxa como texto puro "1.55% + $0.05" — não estruturada</text>
+
+  <rect x="466" y="56" width="418" height="468" fill="#fff" rx="8" stroke="#D3D1C7" stroke-width="0.8"/>
+  <rect x="466" y="56" width="418" height="32" fill="#5DCAA5" rx="8"/>
+  <rect x="466" y="72" width="418" height="16" fill="#5DCAA5"/>
+  <text x="476" y="77" font-size="12" font-weight="500" fill="#04342C" font-family="sans-serif">✓ Registro tratado — pipeline output (depois)</text>
+
+  <rect x="474" y="96" width="402" height="352" fill="#F1EFE8" rx="6"/>
+
+  <text x="484" y="116" font-size="10" font-family="monospace" fill="#2C2C2A">{</text>
+  <text x="496" y="132" font-size="10" font-family="monospace" fill="#185FA5">"bandeira"</text><text x="570" y="132" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="582" y="132" font-size="10" font-family="monospace" fill="#3B6D11">"visa"</text><text x="614" y="132" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="148" font-size="10" font-family="monospace" fill="#185FA5">"versao_data"</text><text x="584" y="148" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="596" y="148" font-size="10" font-family="monospace" fill="#3B6D11">"2026-04-18"</text><text x="666" y="148" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="164" font-size="10" font-family="monospace" fill="#185FA5">"tipo_cartao"</text><text x="584" y="164" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="596" y="164" font-size="10" font-family="monospace" fill="#3B6D11">"credit"</text><text x="636" y="164" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="180" font-size="10" font-family="monospace" fill="#185FA5">"produto"</text><text x="556" y="180" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="568" y="180" font-size="10" font-family="monospace" fill="#3B6D11">"visa_signature"</text><text x="664" y="180" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="196" font-size="10" font-family="monospace" fill="#185FA5">"modalidade"</text><text x="580" y="196" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="592" y="196" font-size="10" font-family="monospace" fill="#3B6D11">"card_present"</text><text x="666" y="196" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="212" font-size="10" font-family="monospace" fill="#185FA5">"segmento"</text><text x="568" y="212" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="580" y="212" font-size="10" font-family="monospace" fill="#3B6D11">"supermarket"</text><text x="654" y="212" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="228" font-size="10" font-family="monospace" fill="#185FA5">"mcc_codes"</text><text x="572" y="228" font-size="10" font-family="monospace" fill="#2C2C2A">: [</text><text x="592" y="228" font-size="10" font-family="monospace" fill="#BA7517">5411</text><text x="616" y="228" font-size="10" font-family="monospace" fill="#2C2C2A">],</text>
+  <text x="496" y="244" font-size="10" font-family="monospace" fill="#185FA5">"tier_label"</text><text x="572" y="244" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="584" y="244" font-size="10" font-family="monospace" fill="#3B6D11">"tier_1"</text><text x="624" y="244" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <rect x="490" y="252" width="378" height="34" fill="#D6F5EB" rx="4"/>
+  <text x="496" y="264" font-size="10" font-family="monospace" fill="#185FA5">"rate_pct"</text><text x="560" y="264" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="572" y="264" font-size="10" font-family="monospace" fill="#BA7517">1.55</text><text x="596" y="264" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="278" font-size="10" font-family="monospace" fill="#185FA5">"rate_fixed_usd"</text><text x="604" y="278" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="616" y="278" font-size="10" font-family="monospace" fill="#BA7517">0.05</text><text x="640" y="278" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="300" font-size="10" font-family="monospace" fill="#185FA5">"cap_usd"</text><text x="558" y="300" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="570" y="300" font-size="10" font-family="monospace" fill="#993556">null</text><text x="594" y="300" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="316" font-size="10" font-family="monospace" fill="#185FA5">"pin_authenticated"</text><text x="628" y="316" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="640" y="316" font-size="10" font-family="monospace" fill="#993556">true</text><text x="664" y="316" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <rect x="490" y="322" width="378" height="50" fill="#D6F5EB" rx="4"/>
+  <text x="496" y="336" font-size="10" font-family="monospace" fill="#185FA5">"conditions"</text><text x="576" y="336" font-size="10" font-family="monospace" fill="#2C2C2A">: [</text>
+  <text x="508" y="350" font-size="9.5" font-family="monospace" fill="#3B6D11">"Volume tier I: critério de</text>
+  <text x="508" y="364" font-size="9.5" font-family="monospace" fill="#3B6D11">  volume anual — tabela aux."</text>
+  <text x="496" y="378" font-size="10" font-family="monospace" fill="#2C2C2A">],</text>
+  <text x="496" y="398" font-size="10" font-family="monospace" fill="#185FA5">"fonte_pagina"</text><text x="590" y="398" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="602" y="398" font-size="10" font-family="monospace" fill="#BA7517">7</text><text x="610" y="398" font-size="10" font-family="monospace" fill="#2C2C2A">,</text>
+  <text x="496" y="414" font-size="10" font-family="monospace" fill="#185FA5">"fonte_tabela_id"</text><text x="610" y="414" font-size="10" font-family="monospace" fill="#2C2C2A">: </text><text x="622" y="414" font-size="10" font-family="monospace" fill="#3B6D11">"C-supermarket-credit"</text>
+  <text x="484" y="430" font-size="10" font-family="monospace" fill="#2C2C2A">}</text>
+
+  <rect x="474" y="458" width="402" height="18" fill="#9FE1CB40" rx="4"/>
+  <text x="675" y="470" text-anchor="middle" font-size="9" fill="#085041" font-family="sans-serif">✓ Footnotes resolvidas e vinculadas ao registro</text>
+
+  <rect x="434" y="270" width="30" height="30" fill="#2C2C2A" rx="15"/>
+  <text x="449" y="290" text-anchor="middle" font-size="16" fill="#D3D1C7" font-family="sans-serif">→</text>
+
+  <text x="450" y="520" text-anchor="middle" font-size="10" fill="#5F5E5A" font-family="sans-serif">4 linhas × 6 colunas no PDF  →  24 registros atômicos independentes no banco</text>
+</svg>
