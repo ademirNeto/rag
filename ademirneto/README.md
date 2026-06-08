@@ -151,6 +151,47 @@ validated_rules = validator.validate(raw_rules)
 
 ---
 
+## Ordem de Execução dos Milestones
+
+O projeto é dividido em 11 milestones que devem ser executados na sequência abaixo. Cada milestone é pré-requisito do seguinte — não avance sem concluir as issues do milestone anterior.
+
+```
+M1 → M2 → M3 → M4 → M5 → M6 → M7 → M8 → M9 → M10 → M11
+```
+
+| Ordem | Milestone | Dependência | Por quê antes |
+|---|---|---|---|
+| **M1** | Fundamentos RAG e Ambiente | — | Base conceitual e infraestrutura mínima (Python, Docker) |
+| **M2** | Ingestão de PDFs | M1 | Sem extração de dados não há nada para processar |
+| **M3** | Chunking Estrutural | M2 | Chunking opera sobre os blocos extraídos em M2 |
+| **M4** | Embedding e Qdrant | M3 | Vetoriza os chunks gerados em M3 e os indexa no Qdrant |
+| **M5** | Extração LLM com Ollama | M3 | O LLM refina a extração estruturada dos chunks de M3 |
+| **M6** | Banco de Dados Relacional | M5 | Persiste as regras validadas produzidas em M5 |
+| **M7** | Validação de Dados | M5, M6 | Valida as regras antes e depois da persistência no banco |
+| **M8** | Pipeline RAG e Retrieval | M4, M6 | Une Qdrant (M4) e PostgreSQL (M6) no agente de consulta |
+| **M9** | Orquestração com Airflow | M8 | Automatiza o pipeline completo já validado em M8 |
+| **M10** | Monitoramento e Drift Detection | M8, M9 | Monitora a qualidade do pipeline em operação contínua |
+| **M11** | Dashboard com Metabase | M6 | Consome o banco relacional (M6) para visualizações finais |
+
+### Visão de Dependências
+
+```
+M1 (Ambiente)
+ └─► M2 (Ingestão)
+      └─► M3 (Chunking)
+           ├─► M4 (Embedding + Qdrant)
+           │    └─► M8 (RAG + Retrieval) ◄─────────────┐
+           └─► M5 (LLM Extração)                        │
+                ├─► M6 (PostgreSQL) ──────────────────► M8
+                │    ├─► M7 (Validação)                 │
+                │    └─► M11 (Metabase)                 │
+                └─► M7 (Validação)          M9 (Airflow) ──► M10 (Monitoramento)
+```
+
+> **Dica de estudo:** M4 e M5 podem ser estudados em paralelo após concluir M3, pois são independentes entre si. Da mesma forma, M9 e M11 podem ser abordados em paralelo após M8 e M6, respectivamente.
+
+---
+
 ## Documentação Técnica
 
 - [Proposta Técnica Completa](docs/proposta_tecnica_pipeline_intercambio.md)
